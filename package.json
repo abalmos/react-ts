@@ -16,7 +16,8 @@
     "start": "webpack-dev-server --host 0.0.0.0 --disable-host-check",
     "build": "webpack --mode production",
     "typecheck": "tsc --noEmit",
-    "eslint": "eslint src/**/*.tsx src/**/*.ts"
+    "eslint": "eslint src/**/*.tsx src/**/*.ts",
+    "stylelint": "stylelint src/**/*.css src/**/*.tsx"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
